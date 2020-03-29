@@ -14,7 +14,7 @@
    ========================================================================== */
 p {
     line-height: 1.33em;
-    color: #7E7E7E;
+    color: #cc99ff;
 }
 
 #loader-wrapper {
@@ -159,7 +159,7 @@ p {
         display: none;
     }
     .no-js h1 {
-        color: #222222;
+        color: #9999ff;
     }
 
     #content {
