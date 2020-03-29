@@ -105,7 +105,8 @@ p {
         top: 0;
         width: 51%;
         height: 100%;
-	background: #cc99ff;
+	background-image: url("/images/I_can.jpg");
+	background: #264d73;
         z-index: 1000;
         -webkit-transform: translateX(0);  /* Chrome, Opera 15+, Safari 3.1+ */
         -ms-transform: translateX(0);  /* IE 9 */
