@@ -6,17 +6,17 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="description" content="Personal Protfolio">
       <meta name="author" content="Akshay Chaudhari">
-      
-      <link rel="shortcut icon" href="icon.ico" type="images/rsz_akki.jpg">
-      <link rel="icon" href="icon.ico" type="images/rsz_akki.jpg">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="shortcut icon" href="icon.ico" type="img/rsz_akki.jpg">
+      <link rel="icon" href="icon.ico" type="img/rsz_akki.jpg">
       <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
       <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
       <link href="css/styles.css" rel="stylesheet">
       <!--<link rel="stylesheet" href="css/normalize.css">-->
       <!--<link rel="stylesheet" href="css/main.css">-->
       <!--<script src="js/vendor/modernizr-2.6.2.min.js"></script>-->
-      
+
       <title>Akshay Chaudhari</title>
    </head>
    <body>
@@ -26,7 +26,6 @@
          <div class="loader-section section-left"></div>
          <div class="loader-section section-right"></div>
          </div>-->
-    
       <div id="mobile-menu-open" class="shadow-large">
          <i class="fa fa-bars" aria-hidden="true"></i>
       </div>
@@ -36,14 +35,14 @@
             <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
          </div>
          <ul id="menu" class="shadow">
-            <li>
-               <a href="#about">About</a>
-            </li>
-            <li>
+            <!--<li>
                <a href="#experience">Experience</a>
-            </li>
-            <li>
+               </li>
+               <li>
                <a href="#education">Education</a>
+               </li>-->
+            <li>
+               <a href="#about">About Me</a>
             </li>
             <li>
                <a href="#projects">Projects</a>
@@ -61,10 +60,10 @@
          <div id="lead-content">
             <h1>Akshay Chaudhari</h1>
             <h2>Computer Engineer</h2>
-            <a href="docs/Akshay's_Resume_May2020.pdf" class="btn-rounded-white">Download Resume</a>
+            <!-- <a href="docs/Akshay's_Resume_May2020.pdf" class="btn-rounded-white">Download Resume</a> -->
          </div>
          <!-- End #lead-content -->
-         <div id="lead-overlay"></div>
+         <!-- <div id="lead-overlay"></div> -->
          <div id="lead-down">
             <span>
             <i class="fa fa-chevron-down" aria-hidden="true"></i>
@@ -98,10 +97,17 @@
                   </p>
                </div>
             </div>
+            <div class="resume-btn">
+               <!-- <a href="docs/Akshay's_Resume_May2020.pdf" class="btn-rounded-white">Download Resume</a> -->
+               </br>
+               <a href="docs/Akshay_Chaudhari_Resume.pdf">
+               <button type="button" class="btn btn-outline-success btn-sm ">Download Resume</button>
+               </a>
+            </div>
          </div>
       </div>
       <!-- End #about  -->
-      <div id="experience" class="background-alt">
+      <!-- <div id="experience" class="background-alt">
          <h2 class="heading">Experience</h2>
          <div id="experience-timeline">
             <div data-date="June 2019 - Current">
@@ -143,9 +149,9 @@
                </p>
             </div>
          </div>
-      </div>
+         </div> -->
       <!-- End #experience module  -->
-      <div id="education">
+      <!-- <div id="education">
          <h2 class="heading">Education</h2>
          <div class="education-block">
             <h3><a href="http://www.unipune.ac.in/">Savtribai Phule Pune University </a> - <a href="http://sinhgad.edu/">Sinhagad College, Pune</a></h3>
@@ -172,73 +178,67 @@
             </ul>
             </p>
          </div>
-         <!-- End .education-block -->
-      </div>
+         </div> -->
       <!-- End #education -->
       <div id="projects" class="background-alt">
-      <h2 class="heading">Projects</h2>
-      <div class="container">
-      <div class="row">
-         <div class="project shadow-large">
-            <div class="project-image">
-               <img src="images/hotel_pic.jpg" height="300" width="300" />
-            </div>
-            <div class="project-info">
-               <h3>Hostel Management System</h3>
-               <p> The project is all about managing the various duties of a Hostel Rector. It is a 3 tier web application. Rector can add/remove/create/update entry of Students. Rector can view seats available at that time.All the changes made can be seen in History on request.  </p>
-               <a href="https://github.com/akshaychaudhari/HostelManagement">View Project</a>
-            </div>
-         </div>
-      </div>
-      <div class="container">
-      <div class="row">
-         <div class="project shadow-large">
-            <div class="project-image">
-               <img src="images/JS-MVC-TodoList.png" height="300" width="300" />
-            </div>
-            <div class="project-info">
-               <h3>To-do List Maker</h3>
-               <p> This project is all about creating simple web app to implement a MVC model using JavaScript. Here, in this project we can add, modify or delete entries in the to-do list</p>
-               <a href="https://akshaychaudhari.github.io/mvc_JS_simple/">View Project</a>
-            </div>
-         </div>
-      </div>
-      <div class="container">
-      <div class="row">
-         <div class="project shadow-large">
-            <div class="project-image">
-               <img src="images/Portfolio_website.png" height="300" width="300" />
-            </div>
-            <div class="project-info">
-               <h3>A simple porfolio website</h3>
-               <p> Using basic web stack things like HTML, CSS and bootstrap, its very attempt to build a personal portfolio website.</p>
-               <a href="https://akshaychaudhari.github.io/">View Project</a>
-            </div>
-         </div>
-      </div>
-      <div class="container">
-         <div class="row">
+         <h2 class="heading">Projects</h2>
+         <div class="container">
             <div class="project shadow-large">
                <div class="project-image">
-                  <img src="images/techforyou.png" height="300" width="300" />
+                  <img src="img/hotel_pic.jpg" height="300" width="300" />
+               </div>
+               <div class="project-info">
+                  <h3>Hostel Management System</h3>
+                  <p> The project is all about managing the various duties of a Hostel Rector. It is a 3 tier web application. Rector can add/remove/create/update entry of Students. Rector can view seats available at that time.All the changes made can be seen in History on request.  </p>
+                  <a href="https://github.com/akshaychaudhari/HostelManagement"><button type="button" class="btn btn-outline-info btn-sm">View Project</button></a>
+               </div>
+            </div>
+         </div>
+         <div class="container">
+            <div class="project shadow-large">
+               <div class="project-image">
+                  <img src="img/JS-MVC-TodoList.png" height="300" width="300" />
+               </div>
+               <div class="project-info">
+                  <h3>To-do List Maker</h3>
+                  <p> This project is all about creating simple web app to implement a MVC model using JavaScript. Here, in this project we can add, modify or delete entries in the to-do list</p>
+                  <a href="https://akshaychaudhari.github.io/mvc_JS_simple/"><button type="button" class="btn btn-outline-info btn-sm">View Project</button></a>
+               </div>
+            </div>
+         </div>
+         <div class="container">
+            <div class="project shadow-large">
+               <div class="project-image">
+                  <img src="img/Portfolio_website.png" height="300" width="300" />
+               </div>
+               <div class="project-info">
+                  <h3>A simple porfolio website</h3>
+                  <p> Using basic web stack things like HTML, CSS and bootstrap, its very attempt to build a personal portfolio website.</p>
+                  <a href="https://akshaychaudhari.github.io/"><button type="button" class="btn btn-outline-info btn-sm">View Project</button></a>
+               </div>
+            </div>
+         </div>
+         <div class="container">
+            <div class="project shadow-large">
+               <div class="project-image">
+                  <img src="img/techforyou.png" height="300" width="300" />
                </div>
                <div class="project-info">
                   <h3>A blogging website</h3>
                   <p> My not-first, but favourite till date, blogging website. Here, I write about my thoughts about latest technologies and what-not. Key things learnt here are Wordpress, SEO, Web-Crawlers, Analytics</p>
-                  <a href="http://www.techforyou.online/">View Project</a>
+                  <a href="http://www.techforyou.online/"><button type="button" class="btn btn-outline-info btn-sm">View Project</button></a>
                </div>
             </div>
          </div>
-		 <div class="container">
-         <div class="row">
+         <div class="container">
             <div class="project shadow-large">
                <div class="project-image">
-                  <img src="images/FB-Firewall.jpg" height="300" width="300" />
+                  <img src="img/FB-Firewall.jpg" height="300" width="300" />
                </div>
                <div class="project-info">
                   <h3>FB-WatchDog-Application</h3>
                   <p>Social media application developed like FB and on top of that firewall developed to prevent cyberbulleying and online grooming with the help of user profiling and social media analytics</p>
-                  <a href="https://github.com/akshaychaudhari/FB_WatchDog_App">View Project</a>
+                  <a href="https://github.com/akshaychaudhari/FB_WatchDog_App"><button type="button" class="btn btn-outline-info btn-sm">View Project</button></a>
                </div>
             </div>
          </div>
@@ -247,19 +247,27 @@
       <div id="skills">
          <h2 class="heading">Skills</h2>
          <ul>
-            <li>Java</li>
-            <li>Hibernate</li>
+            <li>JavaScript</li>
+            <li>Angualar</li>
+            <li>Oracle-JET</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>BASH</li>
+            <li>Python</li>
+            <li>Java SE</li>
             <li>Java EE</li>
+            <li>Hibernate</li>
             <li>MVC</li>
+            <li>OOP</li>
+            <li>Design Patterns</li>
             <li>SDLC</li>
             <li>Agile Development</li>
-            <li>REST API</li>
+            <li>RESTful API</li>
+            <li>Microservices</li>
             <li>Oracle SQL</li>
             <li>PL/SQL</li>
-            <li>Oracle DB</li>
-            <li>JavaScript</li>
-            <li>Oracle-JET</li>
-            <li>Python</li>
+            <li>GIT</li>
+            <li>SVN</li>
             <li>Data Analysis</li>
             <li>Exploratory Data Analysis</li>
          </ul>
@@ -275,7 +283,6 @@
                <button type="submit">Send</button>
             </form>
          </div>
-         <!-- End #contact-form -->
       </div>
       <!-- End #contact -->
       <footer>
@@ -305,16 +312,26 @@
                      <li>
                         <a href="https://twitter.com/akshayrc" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                      </li>
+                     <!-- <li>
+                        <a href="https://www.hackerrank.com/AkshayChaudhari" target="_blank" style="background:#21B352;" class="btn  btn-social-icon" >
+                           <img src="img/hackerrank.png"/>
+                        </a>
+                        </li> -->
                   </ul>
                </div>
             </div>
          </div>
       </footer>
       <!-- End footer -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
       <script src="js/scripts.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
       <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
          <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
          <script src="js/main.js"></script>-->
    </body>
-</html>
+</html>     
+      
+    
